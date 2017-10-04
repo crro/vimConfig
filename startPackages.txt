@@ -1,0 +1,11 @@
+YouCompleteMe
+ack.vim
+ale
+auto-pairs
+ctrlp.vim
+dwm.vim
+tagbar
+vim-airline
+vim-fugitive
+vim-gitgutter
+vim-go
