@@ -70,3 +70,6 @@ nnoremap <leader>p :bprev<CR>
 
 " I had to change dmw to not run autofocus when netrw opens a new window. I
 " also change the keybinding that it is using
+
+" This change is to ach things under the cursor
+noremap <Leader>a :Ack <cword><cr>
