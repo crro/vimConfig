@@ -1,0 +1,4 @@
+/Users/david/.vim/pack/themes/opt
+nemo
+seagrey
+solarized8
