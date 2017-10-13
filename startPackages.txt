@@ -1,9 +1,11 @@
+.vim/pack/crro
 YouCompleteMe
 ack.vim
 ale
 auto-pairs
 ctrlp.vim
 dwm.vim
+oceanic-next
 tagbar
 vim-airline
 vim-fugitive
