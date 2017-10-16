@@ -73,3 +73,5 @@ nnoremap <leader>p :bprev<CR>
 
 " This change is to ach things under the cursor
 noremap <Leader>a :Ack <cword><cr>
+" Set up color scheme
+colorscheme afterglow
