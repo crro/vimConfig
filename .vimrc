@@ -75,3 +75,8 @@ nnoremap <leader>p :bprev<CR>
 noremap <Leader>a :Ack <cword><cr>
 " Set up color scheme
 colorscheme afterglow
+" Make Ack use ripgrep
+let g:ackprg = 'rg --vimgrep --no-heading'
+" BuffKill vim kills the buffer without closing the window using :BD
+" Installing fzf
+set rtp+=~/.fzf
