@@ -1,0 +1,2 @@
+/Users/david/.vim/pack/crro/opt
+ctrlp.vim

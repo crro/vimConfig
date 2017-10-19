@@ -76,7 +76,25 @@ noremap <Leader>a :Ack <cword><cr>
 " Set up color scheme
 colorscheme afterglow
 " Make Ack use ripgrep
-let g:ackprg = 'rg --vimgrep --no-heading'
+" let g:ackprg = 'rg --vimgrep --no-heading'
+let g:ackprg = 'rg --column --line-number --no-heading --fixed-strings --ignore-case --no-ignore --hidden -g "!tags*" --follow --glob "!.git/*"'
 " BuffKill vim kills the buffer without closing the window using :BD
 " Installing fzf
 set rtp+=~/.fzf
+" --column: Show column number
+" --line-number: Show line number
+" --no-heading: Do not show file headings in results
+" --fixed-strings: Search term as a literal string
+" --ignore-case: Case insensitive search
+" --no-ignore: Do not respect .gitignore, etc...
+" --hidden: Search hidden files and folders
+" --follow: Follow symlinks
+" --glob: Additional conditions for search (in this case ignore everything in the .git/ folder)
+" --color: Search color options
+" This command also ignores the tag file so that it doesn't search it
+command! -bang -nargs=* Find call fzf#vim#grep('rg --column --line-number --no-heading --fixed-strings --ignore-case --no-ignore --hidden -g "!tags*" --follow --glob "!.git/*" --color "always" '.shellescape(<q-args>).'| tr -d "\017"', 1, <bang>0)
+
+" Adding a shortcut for finiding files
+nnoremap <C-p> :Files<CR>
+" Adding a shortcut for finind terms
+nnoremap <C-f> :Find

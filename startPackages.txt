@@ -3,11 +3,11 @@ YouCompleteMe
 ack.vim
 ale
 auto-pairs
-ctrlp.vim
 dwm.vim
-oceanic-next
+fzf.vim
 tagbar
 vim-airline
+vim-bufkill
 vim-fugitive
 vim-gitgutter
 vim-go
