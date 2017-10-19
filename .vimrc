@@ -7,7 +7,7 @@ let g:netrw_preview=1
 let mapleader = ","
 set tags=./.git/tags;,tags;
 " This opens up the tag finder
-nnoremap <leader>. :CtrlPTag<cr>
+nnoremap <leader>. :Tags
 " Bc I cannot seem to map the alt key this hack lets me do that
 " execute "set <M-h>=˙"
 " execute "set <M-j>=∆"
@@ -97,4 +97,4 @@ command! -bang -nargs=* Find call fzf#vim#grep('rg --column --line-number --no-h
 " Adding a shortcut for finiding files
 nnoremap <C-p> :Files<CR>
 " Adding a shortcut for finind terms
-nnoremap <C-f> :Find
+nnoremap <C-f> :Find 
