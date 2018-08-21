@@ -5,6 +5,17 @@ let g:netrw_altv=1
 let g:netrw_winsize=10
 let g:netrw_preview=1
 let mapleader = ","
+" This turns on incremental search
+set incsearch
+" This turns on autoload
+set autoread
+" We are setting the scrolloff property for the cursor
+if !&scrolloff
+	set scrolloff=1
+endif
+if !&sidescrolloff
+	set sidescrolloff=5
+endif
 set tags=./.git/tags;,tags;
 " This opens up the tag finder
 nnoremap <leader>. :Tags
