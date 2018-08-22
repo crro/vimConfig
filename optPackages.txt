@@ -1,2 +1,7 @@
 /Users/david/.vim/pack/crro/opt
 ctrlp.vim
+vim-classpath
+vim-clojure-static
+vim-fireplace
+vim-javascript
+vim-jsx
