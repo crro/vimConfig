@@ -11,3 +11,4 @@ vim-bufkill
 vim-fugitive
 vim-gitgutter
 vim-go
+nerdtree

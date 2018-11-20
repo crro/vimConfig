@@ -24,10 +24,10 @@ nnoremap <leader>. :Tags
 " execute "set <M-j>=∆"
 " execute "set <M-k>=˚"
 " execute "set <M-l>=¬"
-nmap <C-h> 5h
+" nmap <C-h> 5h
 nmap <C-j> 5j
 nmap <C-k> 5k
-nmap <C-l> 5l
+" nmap <C-l> 5l
 
 syntax on
 set number
@@ -76,8 +76,8 @@ let g:airline#extensions#tabline#enabled = 1
 
 " Configure changing tabs
 set hidden
-nnoremap <leader>n :bnext<CR>
-nnoremap <leader>p :bprev<CR>
+nnoremap <C-h> :bnext<CR>
+nnoremap <C-l> :bprev<CR>
 
 " I had to change dmw to not run autofocus when netrw opens a new window. I
 " also change the keybinding that it is using
@@ -109,3 +109,10 @@ command! -bang -nargs=* Find call fzf#vim#grep('rg --column --line-number --no-h
 nnoremap <C-p> :Files<CR>
 " Adding a shortcut for finind terms
 nnoremap <C-f> :Find 
+" Use fd for ctrlp.
+if executable('fd')
+    let g:ctrlp_user_command = 'fd -c never "" "%s"'
+    let g:ctrlp_use_caching = 0
+endif
+" Now we are going to use NERDTree and toggle it
+map <C-e> :NERDTreeToggle<CR>
