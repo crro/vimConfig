@@ -76,8 +76,8 @@ let g:airline#extensions#tabline#enabled = 1
 
 " Configure changing tabs
 set hidden
-nnoremap <C-h> :bnext<CR>
-nnoremap <C-l> :bprev<CR>
+nnoremap <C-l> :bnext<CR>
+nnoremap <C-h> :bprev<CR>
 
 " I had to change dmw to not run autofocus when netrw opens a new window. I
 " also change the keybinding that it is using
