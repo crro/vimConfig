@@ -1,0 +1,21 @@
+[submodule "pack/crro/opt/ctrlp.vim"]
+	path = pack/crro/opt/ctrlp.vim
+	url = https://github.com/kien/ctrlp.vim
+[submodule "pack/crro/opt/vim-classpath"]
+	path = pack/crro/opt/vim-classpath
+	url = https://github.com/tpope/vim-classpath
+[submodule "pack/crro/opt/vim-clojure-static"]
+	path = pack/crro/opt/vim-clojure-static
+	url = https://github.com/guns/vim-clojure-static
+[submodule "pack/crro/opt/vim-fireplace"]
+	path = pack/crro/opt/vim-fireplace
+	url = https://github.com/tpope/vim-fireplace
+[submodule "pack/crro/opt/vim-javascript"]
+	path = pack/crro/opt/vim-javascript
+	url = https://github.com/pangloss/vim-javascript
+[submodule "pack/crro/opt/vim-jsx"]
+	path = pack/crro/opt/vim-jsx
+	url = https://github.com/mxw/vim-jsx
+[submodule "pack/crro/start/YouCompleteMe"]
+	path = pack/crro/start/YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe
