@@ -118,13 +118,16 @@ endif
 map <C-e> :NERDTreeToggle<CR>
 " Mundo undo tree
 nnoremap <F5> :MundoToggle<CR>
-" lsp go
+" golang lsp
 if executable('go-langserver')
 	au User lsp_setup call lsp#register_server({
-		\ 'name': 'go-langserver',
+	        \ 'name': 'go-langserver',
 	        \ 'cmd': {server_info->['go-langserver', '-gocodecompletion']},
 	        \ 'whitelist': ['go'],
 	        \ 
 		\ })
 endif
-
+" asynccomplete vim
+inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
+inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<cr>"
