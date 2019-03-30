@@ -116,3 +116,5 @@ if executable('fd')
 endif
 " Now we are going to use NERDTree and toggle it
 map <C-e> :NERDTreeToggle<CR>
+
+nnoremap <F5> :MundoToggle<CR>
