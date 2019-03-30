@@ -19,3 +19,42 @@
 [submodule "pack/crro/start/YouCompleteMe"]
 	path = pack/crro/start/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe
+[submodule "pack/crro/start/ack.vim"]
+	path = pack/crro/start/ack.vim
+	url = https://github.com/mileszs/ack.vim
+[submodule "pack/crro/start/ale"]
+	path = pack/crro/start/ale
+	url = https://github.com/w0rp/ale
+[submodule "pack/crro/start/auto-pairs"]
+	path = pack/crro/start/auto-pairs
+	url = https://github.com/jiangmiao/auto-pairs
+[submodule "pack/crro/start/dwm.vim"]
+	path = pack/crro/start/dwm.vim
+	url = https://github.com/spolu/dwm.vim
+[submodule "pack/crro/start/fzf.vim"]
+	path = pack/crro/start/fzf.vim
+	url = https://github.com/junegunn/fzf.vim
+[submodule "pack/crro/start/nerdtree"]
+	path = pack/crro/start/nerdtree
+	url = https://github.com/scrooloose/nerdtree
+[submodule "pack/crro/start/tagbar"]
+	path = pack/crro/start/tagbar
+	url = https://github.com/majutsushi/tagbar
+[submodule "pack/crro/start/vim-airline"]
+	path = pack/crro/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline
+[submodule "pack/crro/start/vim-bufkill"]
+	path = pack/crro/start/vim-bufkill
+	url = https://github.com/qpkorr/vim-bufkill
+[submodule "pack/crro/start/vim-fugitive"]
+	path = pack/crro/start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
+[submodule "pack/crro/start/vim-gitgutter"]
+	path = pack/crro/start/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter
+[submodule "pack/crro/start/vim-go"]
+	path = pack/crro/start/vim-go
+	url = https://github.com/fatih/vim-go
+[submodule "pack/crro/start/vim-mundo"]
+	path = pack/crro/start/vim-mundo
+	url = https://github.com/simnalamburt/vim-mundo
